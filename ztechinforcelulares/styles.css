@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+body {
+    background-color: #ccc;
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+
+header {
+    background-color: white;
+    width: 75%;
+    padding: 10px;
+
+}
+
+.logo,
+.sociais {
+    width: 2 0%;
+
+}
+
+.logo img {
+    width: 80px;
+    cursor: pointer;
+}
+
+.menu nav a {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    position: relative
+}
+
+.menu nav a::after {
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(46deg, darkblue, azure);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+
+
+}
+
+
+.menu nav a:hover::after {
+    width: 20px;
+}
+
+
+.sociais button {
+    width: 45px;
+    width: 45px;
+    background-image: linear-gradient(46deg, white, navy);
+    border: none;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+.sociais button i {
+    font-size: 20px;
+
+}
+
+/* toda estrutura da pagina */
+.conteudo {
+    width: 90%;
+    /* largura */
+    margin: auto;
+    display: flex;
+    /* permite que alteremos a posição dos elementos na tela */
+    justify-content: space-between;
+    /* permite justificar / alinhar os componentes na horizontal */
+    align-items: center;
+    /* permite alinhar os componentes na vertical*/
+
+}
+
+
+.caixa-texto {
+    width: 600px;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu span {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-size: 1000;
+    color: var(animation-fill-mode:);
+}
+
+.menu h1 {
+    font-size: 3.2rem;
+    color: var(--second-color)
+    
+}
+
+h2 {
+    color: black;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+span {
+    color: #2eac15;
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 10px 10px 10px #2eac15;   /* sombra no texto */
+}
+
+
+
+p {
+    font-size: 18px;
+    font-weight: 900;
+    /* tamanho da fonte */
+    font-family: 'Roboto', sans-serif;   /* fonte do google */
+}
+
+button {
+    background: rgb(18, 18, 230);
+    /* background -> fundo do elemento */
+    color: white;
+    /* cor do texto */
+    border-radius: 40px;
+    /* arredondamento da borda */
+    border: none;
+    /* borda do elemento */
+    cursor: pointer;
+    /* cursor do mouse */
+    padding: 10px;
+    /* espaçamento interno */
+    margin-top: 20px;
+}
+
+
+.logo {
+    width: 100px;
+    margin: auto;
+    margin-left: 50px;
+    right: 10px;
+    
+   
+      
+}
+
+.starbucks {
+    width: 300px;
+}
+
+.botao-menu {
+    width: 60px;
+    transition: 1s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px);
+}
+
+.circulo {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    background: #4a48bf;
+    top: 0;
+    left: 0;
+    clip-path: circle(500px at right 600px);
+    z-index: -1;
+}
+
+
+.flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.botao-flutuante {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01300d;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+
+.lojaonline { 
+    position: absolute;
+    width: 98%;
+    height: 30%;
+    right: 30px;
+    
+
+}
+

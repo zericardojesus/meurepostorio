@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -21,6 +21,20 @@ header {
     background-color: white;
     width: 75%;
     padding: 10px;
+
+}
+
+.atender {
+   
+    border-radius: 16px;
+    width: 128px;
+    height: 61px;
+    border: none;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: normal;
+    color: #FFFFFF;
+    cursor: pointer;
 
 }
 
@@ -140,7 +154,7 @@ span {
     color: #2eac15;
     font-size: 50px;
     font-weight: 900;
-    text-shadow: 10px 10px 10px #2eac15;   /* sombra no texto */
+    text-shadow: 10px 10px 10px #2eac15;   
 }
 
 
@@ -148,8 +162,10 @@ span {
 p {
     font-size: 18px;
     font-weight: 900;
-    /* tamanho da fonte */
-    font-family: 'Roboto', sans-serif;   /* fonte do google */
+    font-family: 'Roboto', sans-serif;   
+    margin-top: 32px;
+    margin-bottom: 65px;
+    
 }
 
 button {
@@ -175,8 +191,8 @@ button {
     margin-left: 50px;
     right: 10px;
     
-   
-      
+
+         
 }
 
 .starbucks {
@@ -252,3 +268,18 @@ body {
 
 }
 
+@media screen and (max-width: 992px) {
+    header {
+      display: none;
+    }
+
+    .lojaonline 
+    
+        {
+            display: none;
+        }    
+        .flutuante {
+            display: none;
+        }
+
+}

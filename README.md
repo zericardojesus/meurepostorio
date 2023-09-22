@@ -17,7 +17,7 @@ criando projetos com:
 
 Minha meta é ser um programador, trabalhando em equipe e visando as melhorias nos projetos da empresa focado sempre em produtividade. 
 Hoje eu sou técnico em informática e celulares, contudo estou em carreira de transição e amando ser programador, sou eu que
-mim pergunto porque não entrei antes para setor de programação, mais eu paro a hora é agora e estou muito comprometido e focado no que quero, que é ser 
+mim pergunto porque não entrei antes para setor de programação, mais eu paro e penso, a hora é agora e estou muito comprometido e focado no que quero, que é ser 
 o melhor programador. Hoje estudo na escola DevClub onde nos ajuda a ser o melhor dentro da programação!
 
 # projetos-curso-devclub

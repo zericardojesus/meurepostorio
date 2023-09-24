@@ -6,12 +6,26 @@ const machineScore = document.querySelector('#machine-score')
 let humanScoreNumber = 0
 let machineScoreNumber = 0
 
+/*
+
+humanScoreNumber -> Came Case
+GAME_OPTIONS     -> Snake Case
+
+*/
+
+const GAME_OPTIONS = {
+    ROCK: 'rock',
+    PAPER: 'paper',
+    scissors: 'scissors',
+}
+
+
 const playHuman = (humanChoice) => {
     playTheGame(humanChoice, playMachine())
 }
 
 const playMachine = () => {
-    const choices = ['rock', 'paper', 'scissors']
+    const choices = [GAME_OPTIONS.ROCK, GAME_OPTIONS.PAPER, GAME_OPTIONS.SCISSORS]
     const randomNumber = Math.floor(Math.random() * 3)
 
     return choices[randomNumber]
